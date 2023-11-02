@@ -1,0 +1,310 @@
+html 1
+ <!--  Ndertoni nje faqe web statike 
+strukturen e faqes ta kete me tabele
+te pakten 3 menu funksionale (pra 3 faqe html)
+te pakten nje forme perdoruesi, nje imazh dhe permbajtja tjeter te jete sipas deshires -->
+
+ <html lang="en">
+    <head>
+        <title>Newsletter</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="lab.css">
+    </head>
+
+    <body bgcolor="grey">
+       <table width="100%" class="table">
+          <tr height="100%" bgcolor="grey" class="header">
+            <td colspan="4" align="center">
+                <h1 class="fakte">Fakte Interesante</h1>
+            </td>
+          </tr>
+          <tr height="60" bgcolor="grey" class="navbar">
+            <td align="center" width="auto" name="nav">
+              <a href="#" onclick="hi()">Home</a>
+            </td>
+            <td align="center" width="auto" name="nav">
+            <a href="#" onclick="hi()">Rreth nesh</a>
+            </td>
+            <td align="center" width="auto" name="nav">
+              <a href="#" onclick="hi()">Kontakt</a>
+            </td>
+            <td align="center">
+              <a href="form.html" width="auto" name="nav">Regjistrohu</a>
+            </td>
+          </tr>
+          <tr height="400">
+            <td width="250" class="img">
+                <img src="img/img.jpg" width="300" height="400" class="img1"/>
+
+                 
+            </td>
+            <td colspan="3" class="permbajtja">
+                <p>
+                  <p class="p5"><b>Sot do shohim disa fakte interesante lidhur me kompjuteret :</b></p> <BR>
+                  1. Kompjuteri i parë peshonte më shumë se 27 tonë <BR>
+                  Emri i saj ishte ENIAC dhe zuri një hapësirë modeste prej 1800 metrash katrorë. <BR><BR>
+                  
+                  2. Rreth 90% e monedhës botërore ekziston vetëm në kompjuter<BR>
+                  Kjo do të thotë se vetëm rreth 10% e monedhës globale është në të vërtetë para në dorë.<BR><BR>
+                  
+                  3. Miu i parë kompjuterik ishte bërë prej druri<BR>
+                  Doug Engelbart e shpiku atë në 1964.<BR><BR>
+                  
+                  4. Rreth 70% e inxhinierëve të viruseve punojnë për sindikatat e krimit të organizuar<BR>
+                  Kjo i jep peshë të re rëndësisë së softuerit anti-virus dhe anti-malware, dhe shërbimeve të shkëlqyera për heqjen e viruseve.<BR><BR>
+                  
+                  5. Programuesi i parë i njohur kompjuterik ishte një grua<BR>
+                  Ajo quhej Ada Lovelace dhe jetonte në Angli, ku punonte si matematikane dhe shkrimtare. Ajo është e famshme për punën në "Motorin Analitik".
+                  <BR><BR>
+                  6. Disa nga markat më të mëdha të kompjuterëve të filluara në garazhe<BR>
+                  Kjo është e vërtetë për Apple, Microsoft dhe HP.<BR><BR>
+                  
+                  7. Njerëzit pulsin më pak kur përdorin kompjuterë<BR>
+                  Ndërsa një person mesatarisht pulson rreth 20 herë në minutë në rrethana normale, njerëzit në kompjuter pulsojnë vetëm rreth shtatë herë në minutë.
+                  <BR><BR>
+                  8. Hakerët shkruajnë rreth 6000 viruse të reja çdo muaj<BR>
+                  Këta viruse janë krijuar për të synuar një përzgjedhje të gjerë të sistemeve operative, kështu që të mësosh për të shmangur viruset dhe malware është thelbësor!
+                  <BR><BR>
+                  9. Më shumë se 80% e emaileve ditore në SHBA janë Spam<BR>
+                  Për t'i mbajtur të dhënat tuaja të sigurta, fshijini menjëherë këto email dhe mos klikoni lidhjet ose bashkëngjitjet që mund të përmbajnë.
+                  <BR><BR>
+                  10. MyDoom është virusi kompjuterik më i shtrenjtë në histori<BR>
+                  Virusi kushtoi rreth 38.5 miliardë dollarë dëm dhe u shfaq në janar të 2006. Menjëherë pas kësaj, ai fitoi një emër për veten si virusi më i përhapur ndonjëherë.
+                 
+                              
+                </p>
+            </td>
+
+          </tr>
+          
+        <!---Footer-->
+
+          <tr height="auto" width="100%">
+            <td colspan="4"  align="center" class="footer">
+                <h2 class="copyright">Copyright © 2023, Designed by Ledio</h2>
+                <h3 class="shkarko"><a href="SourceCode.txt" download="">Download Source Code</a></h3>
+            </td>
+
+          </tr>
+
+       </table>
+
+           <script>
+            function hi() {
+              alert("Ne Mirembajtje");
+            }
+           </script>
+    </body>
+ </html>
+
+
+css 1
+
+.table {
+ 
+  border: 0px;
+
+}
+
+.header {
+  background-color: #57648C;
+  
+}
+
+.fakte {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  margin: 0;
+  text-align: left;
+}
+
+.navbar {
+  background-color: #934A5F ;
+}
+
+a {
+  color: white;
+  font-size: 18px;
+}
+
+
+a:hover { 
+  color: purple;
+}
+
+a::after {
+  color: white;
+}
+
+.permbajtja {
+  background-color: #E5E5E5;
+  font-size: 12px;
+  font-family: sans-serif;
+  padding: 10px;
+  margin-top: 0;
+}
+
+.p5 {
+  font-family: sans-serif;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.img1 {
+  border: 3px;
+  border-color: #E5E5E5;
+  height: 460px;
+}
+
+/*Footer*/
+.footer {
+  background-color: 57648C;
+}
+
+.copyright {
+  text-align: left;
+  font-family: serif;
+  padding-top: 10px;
+  padding-left: 10px;
+  display: inline-block;
+  width: 80%;
+  font-size: 17px;
+}
+
+.shkarko {
+  display: inline-block;
+  
+}
+
+html 2
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gazeta...</title>
+    <link rel="stylesheet" type="text/css" href="form.css">
+</head>
+<body class="body">
+    <div class="signup">
+        <h1>Regjistrohu</h1>
+        <h4>Regjistrohuni në gazeten tone për të marrë lajmet e fundit në adresën tuaj</h4>
+
+        <form>
+            <label>Emri</label>
+            <input type="text" placeholder="" required>
+            <label>Mbiemri</label>
+            <input type="text" placeholder="" required>
+            <label>Email</label>
+            <input type="email" placeholder="shembull@email.com" required>
+            <label>Fjalekalimi</label>
+            <input type="password" placeholder="" required>
+            <label>Konfirmo Fjalekalimin</label>
+            <input type="password" placeholder="" required>
+            <input type="submit" value="Regjistrohu" class="button">
+            <!-- <input type="reset" value="Reset" class="reset"> -->
+            
+        </form>
+        <p>By clicking the Sign up button, you agree to our<br>
+        <a href="#">Terms and Conditions</a> and <a href="#">Privacy and Policy</a>
+        </p>
+        <p class="para2">Already have an account ? <a href="#">Login here</a></p>
+    </div>
+    
+    
+    
+</body>
+</html>
+
+css 2
+
+.body {
+    background-color: grey;
+    font-family: sans-serif;
+    background-image: url(img/newspaper\ template.jpg);
+}
+
+.signup {
+    width: 360px;
+    height: 620px;
+    margin: auto;
+    background-color: beige;
+    border-radius: 3px;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 1px;
+}
+
+h4 {
+    text-align: center;
+    
+}
+
+form {
+    width: 300px;
+    margin-left: 20px;
+}
+
+form label {
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+form input {
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid grey;
+    border-radius: 6px;
+    outline: none;
+}
+
+.button {
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: aquamarine;
+    color: white;
+    font-size: 18px;
+    box-shadow: 0 5px  0 grey;
+}
+
+.button:active {
+    box-shadow: none;
+    transform: translateY(5px);
+}
+
+ 
+/*
+.reset {
+    width: 320px;
+    height: 35;
+    margin-top: 20px;
+    border: none;
+    background-color: rgb(188, 40, 40);
+    color: white;
+    font-size: 18px;
+} 
+*/
+p {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 12px;
+}
+
+.para2 {
+    text-align: center;
+    color: black;
+    margin-top: 0px;
+    padding-bottom: 5px;
+    
+}
+

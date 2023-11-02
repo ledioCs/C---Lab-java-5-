@@ -1,0 +1,87 @@
+.body {
+    background-color: grey;
+    font-family: sans-serif;
+    background-image: url(img/newspaper\ template.jpg);
+}
+
+.signup {
+    width: 360px;
+    height: 620px;
+    margin: auto;
+    background-color: beige;
+    border-radius: 3px;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 1px;
+}
+
+h4 {
+    text-align: center;
+    
+}
+
+form {
+    width: 300px;
+    margin-left: 20px;
+}
+
+form label {
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+form input {
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid grey;
+    border-radius: 6px;
+    outline: none;
+}
+
+.button {
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: aquamarine;
+    color: white;
+    font-size: 18px;
+    box-shadow: 0 5px  0 grey;
+}
+
+.button:active {
+    box-shadow: none;
+    transform: translateY(5px);
+}
+
+ 
+/*
+.reset {
+    width: 320px;
+    height: 35;
+    margin-top: 20px;
+    border: none;
+    background-color: rgb(188, 40, 40);
+    color: white;
+    font-size: 18px;
+} 
+*/
+p {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 12px;
+}
+
+.para2 {
+    text-align: center;
+    color: black;
+    margin-top: 0px;
+    padding-bottom: 5px;
+    
+}
+
